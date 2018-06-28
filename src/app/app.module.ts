@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import {RegisterComponent} from './register/register/register.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +15,9 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
+
     RegisterModule,
+
     AppRoutingModule
   ],
   providers: [],
